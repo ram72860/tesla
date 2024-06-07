@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border-style: none;
+}
+
+.sec1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Model-3-Desktop-LHD-v2.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 20px 3%;
+    position: sticky;
+    z-index: 2;
+}
+.nav svg{
+    margin-top: 20px;
+}
+.nav1 ul{
+    margin-top: 13px;
+    display: flex;
+    margin-left: 120px;
+    list-style: none;
+}
+.nav1 ul li{
+    margin-left: 30px;
+    padding: 5px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav2 ul{
+    list-style: none;
+    margin-left: 250px;
+    display: flex;
+    margin-top: 14px;
+}
+.nav2 ul li{
+    margin-left: 10px;
+}
+.nav3 h1{
+    margin-top: 10px;
+}
+.nav3{
+    text-align: center;
+    justify-content: center;
+}
+.nav3 h3{
+    margin-top: -3px;
+}
+.nav3 p{
+    margin-top: 8px;
+}
+.nav4{
+    display: flex;
+    margin-top: 380px;
+    margin-left: 420px;
+   
+  
+}
+.on{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: azure;
+    color: black;   
+    width: 190px; 
+    height: 30px;
+    border-style: none;
+    border-radius: 20px;
+
+}
+.dd{
+    border-radius: 20px;
+    background-color: black;
+    color: azure;
+    width: 190px;
+    margin-left: 40px;
+    border-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dropdown{
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    padding: 100px 3% 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform .6s ease;
+    display: flex;
+}
+.vc{
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid #aaa;
+}
+.vcrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2% ;
+}
+.nav1 ul li:hover>.dropdown {
+    transform: translateY(0);
+}
+.card {
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.list p{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 ul li:hover{
+    background-color:rgb(252, 252, 252) !important;
+    border-radius: 5px;
+}
+.sec2{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Model-Y-Desktop-Global.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec3{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Model-X-Desktop-v2.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec4{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Model-S-Desktop-v2.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec4 h1{
+    color: azure;
+}
+.sec4 h6{
+    color: azure;
+}
+.sec4  h3{
+    color: azure;
+}
+.sec5{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Cybertruck-Desktop.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec5 h1{
+    color: azure;
+}
+.sec5 h6{
+    color: azure;
+}
+.sec5  h3{
+    color: azure;
+}
+.sec5 button{
+    height: 40px;
+    margin-top: 350px;
+    width: 110px;
+}
+.content2 svg{
+    margin-left: 430px;
+    width: 330px;
+    margin-top: 40px;
+}
+.on1{
+    margin-top: 40px;
+    margin-left: 430px;
+    width: 12%; 
+    border-radius: 20px;
+}
+.dd1{
+    width: 12%; 
+    margin-left: 100px; 
+    border-radius: 20px;
+    background-color: azure;
+    color: black;   
+}
+.sec6{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-SolarPanels-01-Desktop.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec6 .nav3{
+color: azure;
+text-align: center;
+justify-content: center;
+}
+.on2{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 14%; 
+    height: 40px;
+    border-radius: 20px;
+}
+.dd2{
+    height: 40px;
+    width: 14%; 
+    margin-top: 66px;
+    margin-left: 70px; 
+    border-radius: 20px;
+    background-color: azure;
+    color: black;   
+}
+.sec7{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-SolarRoof-Desktop-Global.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec8{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Powerwall-01-Desktop.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec8 .nav4 button{
+    margin-top: 60px;
+    background-color: white;
+    color: black;
+}
+.sec9{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/Homepage-Accessories-Desktop-NA-APAC.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec9 .nav3 button{
+    margin-top: 470px;
+    background-color: white;
+    width: 150PX;
+    height: 30PX;
+    color: black;
+}
+.sec10{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    color: azure;
+    text-align: center;
+    
+   
+}
+.sec10 {
+    padding: 110px;
+}
+.footer{
+    width: 100%;
+    height: 90vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: -30px;
+    padding-top: 20px;
+}
+.fcontent a{
+    color: #fff;
+    text-decoration: underline;
+    
+}
+.fcontent p{
+    margin-top: 30px;
+}
+.fcontent i{
+    margin-top: 30px;
+}
